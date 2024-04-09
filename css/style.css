@@ -3,3 +3,99 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+header {
+    background-color: #0084fd;
+    height: 50px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+#jumbotron {
+    margin: 40px 0;
+}
+
+/* UTILITIES */
+/* FINE UTILITIES */
+
+/* HEADER */
+
+/* FINE HEADER */
+
+/* SECTION */
+
+#jumbotron .col {
+    width: 100%;
+    background-color: #b5ddff;
+    height: 500px;
+    border-radius: 20px;
+    margin: 15px 30px;
+    border: 1px solid black;
+}
+#jumbotron .grow {
+    height: calc(800px - 30px);
+}
+
+#strategic {
+    background-color: #9792e4;
+    width: 100%;
+}
+#strategic .col {
+    width: 100%;
+    background-color: gold;
+    height: calc(800px - 30px);
+    border-radius: 20px;
+    margin: 15px 30px;
+    border: 1px solid black;
+}
+#testimonials {
+    background-color: #fff;
+    width: 100%;
+}
+#testimonials .col {
+    width: 100%;
+    background-color: lightgreen;
+    height: calc(800px - 30px);
+    border-radius: 20px;
+    margin: 15px 30px;
+    border: 1px solid black;
+}
+#with-us {
+    background-color: #9792e4 ;
+}
+#with-us .col {
+    width: 100%;
+    background-color: orange;
+    height: 500px;
+    border-radius: 20px;
+    margin: 15px 30px;
+    border:1px solid black; 
+}
+#about-us .col {
+    width: 100%;
+    background-color: silver;
+    height: calc(800px - 30px);
+    border-radius: 20px;
+    margin: 15px 30px;
+    border:1px solid black; 
+}
+#get-started {
+    background-color: #9792e4;
+    width: 100%;
+}
+#get-started .col {
+    width: 100%;
+    background-color: pink;
+    height: 600px;
+    border-radius: 20px;
+    margin: 15px 30px;
+    border:1px solid black; 
+}
+
+
+/* FINE SECTION */
+
+/* FOOTER */
+/* FINE FOOTER */

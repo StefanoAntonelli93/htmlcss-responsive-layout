@@ -126,11 +126,10 @@ header .col {
 }
 #with-us .col {
     width: 100%;
-    background-color: white;
-    height: 500px;
+   
     border-radius: 30px;
     margin: 15px 30px;
-    border:1px solid black; 
+   
 }
 #about-us {
     padding: 50px 0;
@@ -139,6 +138,14 @@ header .col {
 #about-us .col {
     width: 100%;
     background-color: silver;
+    height: calc(800px - 30px);
+    border-radius: 30px;
+    margin: 15px 30px;
+    border:1px solid black; 
+}
+#about-us .col-sm {
+    width: 100%;
+    
     height: calc(800px - 30px);
     border-radius: 30px;
     margin: 15px 30px;
@@ -164,7 +171,6 @@ header .col {
 /* STYLE JUMBOTRON */
 .img-jumbo {
     width: 100%;
-    height: 350px;
 }
 #jumbotron {
     text-align: center;
@@ -291,13 +297,45 @@ header .col {
     height: 200px;
 }
 #with-us h2{
-    color: #9792e4;
+    color: white;
     font-size: 40px;
     padding: 30px 0;
 }
-.with-us .col {
+#with-us .col {
     padding: 30px;
 }
+#with-us .col-sm {
+    padding: 30px;
+    text-align: center;
+}
+#with-us .number{
+    font-size: 50px;
+    font-weight: 700;
+    color: #9792e4;
+    margin-bottom: 30px;
+}
+#with-us h3 {
+    color: #9792e4;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#with-us span {
+    color: #5a6e7f;
+    line-height: 30px;
+}
+#with-us .bg-purple{
+    color: white;
+    background-color: #9792e4;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 30px 0;
+}
+#with-us .col:not(.col-sm) {
+    background-color: white;
+}
+
 /*  FINE STYLE WITH-US */
 
 

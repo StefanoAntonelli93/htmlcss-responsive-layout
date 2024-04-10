@@ -154,6 +154,7 @@ footer .col {
         border-radius: 20px;
         margin: 15px 10px;
         border: 1px solid black;
+       
     }
     #jumbotron .grow {
         width: calc(66% - 20px);
@@ -168,12 +169,12 @@ footer .col {
         padding: 50px 0 80px 0;
     }
     #testimonials .col {
-    width: 100%;
-    background-color: lightgreen;
-    height: 300px;
-    border-radius: 20px;
-    margin: 15px 30px;
-    border: 1px solid black;
+        width: 100%;
+        background-color: lightgreen;
+        height: 300px;
+        border-radius: 20px;
+        margin: 15px 30px;
+        border: 1px solid black;
     }
     #with-us {
         padding: 100px 20px 50px;
@@ -225,9 +226,10 @@ footer .col {
         border-radius: 20px;
         margin: 15px 10px;
         border: 1px solid black;
+
     }
     #jumbotron .grow {
-        width: calc(66% - 20px);
+        width: calc(100% / 3 * 2 - 20px);
         background-color: #b5ddff;
         height: 350px;
         border-radius: 20px;
@@ -246,6 +248,15 @@ footer .col {
         border-radius: 20px;
         margin: 15px 10px;
         border: 1px solid black;
+    }
+    #strategic .col-sm {
+        width: calc(50% - 120px);
+        background-color: white;
+        height: calc(600px - 30px);
+        border-radius: 20px;
+        margin: 15px 10px;
+        border: 1px solid black;
+        align-self: flex-end;
     }
     #with-us {
         padding: 100px 20px 50px;

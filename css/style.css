@@ -194,7 +194,7 @@ header .col {
 #testimonials img {
     width: 100%;
     border-radius: 50%;
-    margin-top: 20px;
+    padding: 50px;
 }
 #testimonials {
     text-align: center;
@@ -204,6 +204,12 @@ header .col {
 }
 
 /*  FINE STYLE TESTIMONIAL */
+
+/* STYLE WITH-US */
+#with-us .col-sm {
+    height: 200px;
+}
+/*  FINE STYLE WITH-US */
 
 /* FOOTER */
 footer .col {

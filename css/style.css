@@ -68,6 +68,9 @@ header .col {
     font-size: 25px;
     color: white;
 }
+.py-top-8 {
+    padding-top: 8px;
+}
 
 /* FINE HEADER */
 
@@ -167,6 +170,11 @@ header .col {
 #jumbotron .col{
     background-color: #b5ddff;
 }
+#jumbotron i :not(.fa-apple) {
+    font-size: 120px;
+    color: #0084fd;
+}
+
 /*  FINE STYLE SECTION */
 
 /* FOOTER */

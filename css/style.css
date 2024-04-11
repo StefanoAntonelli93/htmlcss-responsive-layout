@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #0084fd;
-    height: 80px;
+  
     padding: 10px 25px;
 }
 .row {
@@ -61,19 +61,25 @@ footer {
 .relative {
     position: relative;
 }
+.space-between {
+    justify-content: space-between;
+}
 
 /* FINE UTILITIES */
 
 /* HEADER */
 header .col {
-    width: 50%;
+    
     padding: 5px;
 
 }
 .menù-nav {
     font-size: 25px;
     color: white;
+   
 }
+
+
 .py-top-8 {
     padding-top: 8px;
 }
@@ -638,6 +644,12 @@ footer a {
        border: none;
        font-size: 15px;
 
+    }
+    .menù-nav {
+        font-size: 25px;
+        color: white;
+        display: none;
+       
     }
 
 

@@ -77,6 +77,9 @@ header .col {
 .py-top-8 {
     padding-top: 8px;
 }
+ul {
+    display: none;
+}
 
 /* FINE HEADER */
 
@@ -90,9 +93,7 @@ header .col {
     margin: 15px 30px;
 
 }
-#jumbotron .grow {
-    height: calc(800px - 30px);
-}
+
 
 #strategic {
     background-color: #9792e4;
@@ -171,7 +172,8 @@ header .col {
 
 /* STYLE JUMBOTRON */
 .img-jumbo {
-    width: 100%;
+   max-width: 250px;
+   display: block;
 }
 #jumbotron {
     text-align: center;
@@ -179,7 +181,10 @@ header .col {
 #jumbotron .col {
     padding: 0 30px;
     color: #5a6e7f;
-    padding: 50px;
+    padding: 50px ;
+}
+#jumbotron .grow {
+    padding: 50px 50px 0 50px;
 }
 #jumbotron h2{
     color: #0084fd;
@@ -251,6 +256,8 @@ header .col {
     height: 200px;
     border-radius: 50%;
     margin: 10px 0;
+    flex-shrink: 0;
+    object-fit: cover;
 }
 #testimonials {
     text-align: center;
@@ -466,14 +473,12 @@ footer a {
     #jumbotron .grow {
         width: calc(66% - 20px);
         background-color: #b5ddff;
-
+        padding: 40px 20px 0 20px;
         border-radius: 30px;
         margin: 15px 10px;
 
     }
-    .img-jumbo {
-        width: 100%;
-    }
+  
     #strategic .title {
         padding: 30px 0;
         font-size: 60px;
@@ -614,6 +619,29 @@ footer a {
     #with-us h2 {
         font-size: 60px;
     }
+    .header-list {
+        display: flex;
+        list-style-type: none;
+        justify-content: right;
+        align-items: center;
+        color: white;
+        gap: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    li button{
+       background-color: white;
+       padding: 10px 40px;
+       border-radius: 20px;
+       border: none;
+       font-size: 15px;
+
+    }
+
+
+
 }
 
 /* FINE MEDIA QUERY DESKTOP */
